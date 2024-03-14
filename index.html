@@ -1,29 +1,91 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" type="imagex/png" href="src/imagens/logo.jpeg">
-    <link rel="stylesheet" href="src/css/index.css">
-    <title>Artline Moveis</title>
-    
-</head>
-<body>
+    <link rel="shortcut icon" type="imagex/png" href="src/ima">
+    <link rel="stylesheet" href="src/css/style.css">
+    <title> Artline - Mobiliário Corporativo </title>
+    <script src="src/js/index.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
-    <header class="cabecalho"> 
-        <img src="src/imagens/logo.jpeg" width="100px" alt="Logo ArtLine Movies" id="logomov"/>
+</head>
+
+<body>
+<script src="src/js/index.js"></script>
+    <header class="cabecalho">
+        <div class="container-img">
+            <a class="img-cabeca" href="index.html"> <img src="src/imagens/logo-sem-fundo.png" width="100px" alt="Logo ArtLine Movies"
+                    id="logomov" /> </a>
+        </div>
         <span>
-            <a href="">Pagina Inicial</a>
+            <a class="menu" href="">Pagina Inicial</a>
         </span>
         <span>
-            <a href="">Produtos</a>
+            <a class="menu" href="">Produtos</a>
         </span>
         <span>
-            <a href="">Sobre</a>
+            <a class="menu" href="">Sobre</a>
         </span>
         <span>
-            <a href="">Equipe</a>
+            <a class="menu" href="">Equipe</a>
         </span>
     </header>
+
+    <div class="carrossel">
+        <img src="src/imagens/escritorio-planejado-5.jpeg" alt="Imagem 1">
+        <img src="src/imagens/moveis-planejados-escritorio.jpg" alt="Imagem 2">
+        <img src="src/imagens/sala-planejada-diretor-1.jpg" alt="Imagem 3">
+    </div>
+    <div class="setas">
+        <button class="seta-esquerda" onclick="voltar()">&#10094;</button>
+        <button class="seta-direita" onclick="avancar()">&#10095;</button>
+    </div>
+
+
+
+
+    <nav class="nav-fim">
+        <li class="nav-fim-texto">
+            <a onclick="window.scrollTo(0, 0)">Voltar ao topo</a>
+        </li>
+    </nav>
+    <footer>
+        <nav class="nav-rodape"> 
+
+                <span class="menu-rodape">
+                    <h4> Contato </h4>
+                    <p> <a class="info-link" href="https://www.instagram.com/artline_moveis/"> Rede Social </a></p>
+                    <p> <a class="info-link" href="https://api.whatsapp.com/send/?phone=5579996436826&text&type=phone_number&app_absent=0"> Telefone</a> </p>
+                </span>
+                <span class="menu-rodape">
+                    <h4> Dúvidas </h4>
+                </span>
+                <span class="menu-rodape">
+                    <h4> Institucional </h4>
+                </span>
+                <span class="menu-rodape">
+                    <h4> Pagamentos </h4>
+                </span>
+                
+            <div>
+                <table class="texto-rodape" >
+                    <tr>
+                        <td >
+                            <strong> Endereço: </strong> Rua Dr. Gutemberg Chagas 280 – DIA - B. Inácio Barbosa - Aracaju – Sergipe
+                        </td>
+                    </tr>
+                    <tr>
+                        <td > &copy; 2024 - Artline Moveis - 03.8108.869/0001-90 • Todos os direitos reservados. </td>
+                    </tr>
+                </table>
+            </div>
+
+        </nav>
+    </footer>
+    <script src="src/js/main.js"></script>
 </body>
+
 </html>

@@ -1,11 +1,12 @@
+
 body {
     margin: 0;
-    font-family: Arial, sans-serif;
+    font-family: 'AmsiPro-SemiBold';
 }
 
 .cabecalho {
     background-color: #696969;
-    height: 150px;
+    height: 80px;
     padding: 20px 30px;
     text-align: center;
     align-items: center;
@@ -24,7 +25,6 @@ body {
 }
 
 .menu{
-    text-decoration: none;
     padding: 10px 50px;
     border-radius: 30px;
     color: white;
@@ -36,6 +36,7 @@ body {
     font-size: 18px;
     border-radius: 50px;
     background-color: red;
+    text-decoration: none;
 }
 
 
@@ -101,15 +102,45 @@ body {
 }
 /* voltar ao inicio */
 
-/* copyrigth e localização */
-.texto-rodape {
-    color: white;
-    text-align: center;
-    margin-top: 18%;
-    display: flex;
-    margin-block-end: 15px;
+/* todo o rodape */
+.rodape{
+    background-color: #696969;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    text-align: left;
 }
-/* copyrigth e localização */
+.container{
+    background-color: #696969;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.navbar-footer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    text-align: left;
+}
+.content{
+    display: inline-block;
+    width:  32%;
+    padding: 40px;
+    color: white;
+    font-family: 'AmsiPro-SemiBold';
+    letter-spacing: 1px;
+}
+
+
+ul {
+list-style: none;
+}
+/* todo o rodape */
 
 
 .nav-fim {
@@ -119,7 +150,7 @@ body {
     display: fixed;
     text-align: center;
     margin-top: 10%;
-
+    list-style: none;
 }
 
 /* Menu rodape   */

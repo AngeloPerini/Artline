@@ -1,0 +1,179 @@
+body {
+    margin: 0;
+    font-family: 'AmsiPro-SemiBold';
+    background-color: antiquewhite;
+}
+
+.cabecalho {
+    background-color: #696969;
+    height: 80px;
+    padding: 20px 30px;
+    text-align: center;
+    align-items: center;
+    justify-content: space-around;
+    display: flex;
+}
+
+
+
+.container-img {
+    margin-top: 0%;
+    display: flex;
+    padding: 10px 20px;
+}
+
+.menu{
+    padding: 10px 50px;
+    border-radius: 30px;
+    color: white;
+    transition: all .5s ease-in-out;
+    border-left: 2px solid white; /* Estilo da linha vertical */
+    height: 200px; /* Altura da linha vertical */
+    margin: 0 auto; /* Centraliza a linha na página */
+    border-radius: 0; /* Remove qualquer arredondamento */
+    text-decoration: none;
+}
+.menu:hover{
+    transform: scale(1.1);
+    color: white;
+    font-size: 18px;
+    border-radius: 50px;
+    background-color: red;
+    text-decoration: none;
+}
+
+/* E-MAIL */
+form {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+textarea {
+    height: 150px;
+}
+
+input[type="submit"] {
+    background-color: #ff0000; /* cor azul */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #ff0000; /* tom mais escuro de azul */
+}
+
+/* Estilos para as mensagens de envio */
+#mensagem-envio {
+    text-align: center;
+    margin-top: 20px;
+}
+
+
+
+
+
+
+/* voltar ao inicio */
+.nav-rodape {
+    background-color: #696969;
+    display: flex;
+    height: 100% ;
+    text-align: center;
+    justify-content: center;
+}
+/* voltar ao inicio */
+
+/* todo o rodape */
+.rodape{
+    background-color: #696969;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    text-align: left;
+}
+.container{
+    background-color: #696969;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.navbar-footer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    font-size: 1.1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    text-align: left;
+}
+.content{
+    display: inline-block;
+    width:  32%;
+    padding: 40px;
+    color: white;
+    font-family: 'AmsiPro-SemiBold';
+    letter-spacing: 1px;
+}
+
+
+ul {
+list-style: none;
+}
+/* todo o rodape */
+
+
+.nav-fim {
+    background-color: #696969;
+    cursor: pointer;
+    color: white;
+    display: fixed;
+    text-align: center;
+    margin-top: 10%;
+    list-style: none;
+}
+
+/* Menu rodape   */
+.tabela-menu{
+    margin-left: 50px;
+}
+.menu-rodape{
+    text-decoration: none;
+    padding: 10px 50px;
+    border-radius: 30px;
+    color: white;
+    margin-left: 100px;
+}
+/* menu rodape  */
+
+
+/* Links do rodape (contato, instagram)*/
+.info-link {
+    text-decoration: none;
+    color: white;
+    height: 25px;
+    margin-top: end;
+    padding: 0;
+}
+/* Links do rodape (contato, instagram)*/

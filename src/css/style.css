@@ -2,6 +2,7 @@
 body {
     margin: 0;
     font-family: 'AmsiPro-SemiBold';
+    background-color: antiquewhite;
 }
 
 .cabecalho {
@@ -14,9 +15,7 @@ body {
     display: flex;
 }
 
-.img-cabeca{
-    margin-top: 10px;
-}
+
 
 .container-img {
     margin-top: 0%;
@@ -29,6 +28,11 @@ body {
     border-radius: 30px;
     color: white;
     transition: all .5s ease-in-out;
+    border-left: 2px solid white; /* Estilo da linha vertical */
+    height: 200px; /* Altura da linha vertical */
+    margin: 0 auto; /* Centraliza a linha na página */
+    border-radius: 0; /* Remove qualquer arredondamento */
+    text-decoration: none;
 }
 .menu:hover{
     transform: scale(1.1);
@@ -46,61 +50,67 @@ body {
     width: 50%;
     height: 400px;
     margin-top: 50px;
-    margin-left: 25%;
+    margin-left: 30%;
+    align-items: center;
 }
 
-.carrossel img {
+
+.slide img{
     width: 100%;
     height: 100%;
-    object-fit: cover;
+    object-fit: none;
 }
 
 .setas {
-    display: flex;
+    display: absolute;
+    margin-top: 10px ;
     justify-content: space-between;
-    margin-top: 10px;
-    background-color: transparent;
 }
 
 .seta-esquerda,
 .seta-direita {
     padding: 10px;
     font-size: 20px;
-    border: none;
     cursor: pointer;
-    background-color: transparent;
+    
 }
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-.img-rodape{
-    margin-left: 5%;
-}
-/* voltar ao inicio */
-.nav-rodape {
-    background-color: #696969;
+/* LISTA PRDODUTOS */
+.content-produto{
     display: flex;
-    height: 100% ;
-    text-align: center;
-    justify-content: center;
+    flex-direction: row; /* define a direção do layout como linha */
+    justify-content: space-around; 
 }
-/* voltar ao inicio */
+.texto-produto{
+    margin-top: 50px ;
+    text-align: center;
+    position: absolute;
+}
+.lista-produtos{
+    border: 1px solid #000;
+    padding: 15px;
+    margin: 50px;
+    justify-content: space-around;
+    margin-top: 150px;
+}
+/* LISTA PRDODUTOS */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* todo o rodape */
 .rodape{
@@ -109,40 +119,22 @@ body {
     font-weight: 400;
     line-height: 1.5;
     color: #212529;
-    text-align: left;
-}
-.container{
-    background-color: #696969;
-    padding-right: 15px;
-    padding-left: 15px;
-    margin-right: auto;
-    margin-left: auto;
-}
-.navbar-footer{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    font-size: 1rem;
-    font-weight: 400;
-    line-height: 1.5;
-    color: #212529;
-    text-align: left;
-}
-.content{
-    display: inline-block;
-    width:  32%;
-    padding: 40px;
-    color: white;
-    font-family: 'AmsiPro-SemiBold';
-    letter-spacing: 1px;
-}
+    text-align: center;
 
+}
+.rodape-end{
+    padding: 10px 50px;
+    border-radius: 30px;
+    color: white;
+    margin-left: 100px;
+
+}
 
 ul {
 list-style: none;
 }
-/* todo o rodape */
 
-
+/* voltar ao inicio */
 .nav-fim {
     background-color: #696969;
     cursor: pointer;
@@ -152,27 +144,7 @@ list-style: none;
     margin-top: 10%;
     list-style: none;
 }
-
-/* Menu rodape   */
-.tabela-menu{
-    margin-left: 50px;
-}
-.menu-rodape{
-    text-decoration: none;
-    padding: 10px 50px;
-    border-radius: 30px;
-    color: white;
-    margin-left: 100px;
-}
-/* menu rodape  */
+/* voltar ao inicio */
 
 
-/* Links do rodape (contato, instagram)*/
-.info-link {
-    text-decoration: none;
-    color: white;
-    height: 25px;
-    margin-top: end;
-    padding: 0;
-}
-/* Links do rodape (contato, instagram)*/
+

@@ -8,8 +8,9 @@
     <link rel="stylesheet" href="src/css/style.css">
     <title> Artline - Mobiliário Corporativo </title>
     <script src="src/js/index.js"></script>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
-        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="src/js/text.js"></script>
+    
+
 
 </head>
 
@@ -17,33 +18,82 @@
 <script src="src/js/index.js"></script>
     <header class="cabecalho">
         <div class="container-img">
-            <a class="img-cabeca" href="index.html"> <img src="src/imagens/logo-sem-fundo.png" width="150px" alt="Logo ArtLine Movies"
+            <a class="img-cabeca" href="index.html"> <img src="src/imagens/cabeçalho/logo-sem-fundo.png" width="150px" alt="Logo ArtLine Movies"
                     id="logomov" /> </a>
         </div>
         <span>
-            <a class="menu" href="">Pagina Inicial</a>
+            <a class="menu" href="index.html" title="Pagina Inicial"> Pagina Inicial </a>
         </span>
         <span>
-            <a class="menu" href="">Produtos</a>
+            <a class="menu" href="" title="Produtos"> Produtos </a>
         </span>
         <span>
-            <a class="menu" href="">Sobre</a>
+            <a class="menu" href="" title="Noticias da Artline"> Noticias </a>
         </span>
         <span>
-            <a class="menu" href="">Equipe</a>
+            <a class="menu" href="" title="Entregas finalizadas"> Portifolio </a>
+        </span>
+        <span>
+            <a class="menu" href="" title="Certificados"> Certificações </a>
+        </span>
+        <span>
+            <a class="menu" href="contato.html" title="Contato"> Contato </a>
+        </span>
+        <span>
+            <a class="menu" href="" title="Equipe"> Equipe  </a>
         </span>
     </header>
 
     <div class="carrossel">
-        <img src="src/imagens/escritorio-planejado-5.jpeg" alt="Imagem 1">
-        <img src="src/imagens/moveis-planejados-escritorio.jpg" alt="Imagem 2">
-        <img src="src/imagens/sala-planejada-diretor-1.jpg" alt="Imagem 3">
+        <div class="slide">
+            <img src="src/imagens/carrossel/mesa-caju-carrossel.jpg" alt="Imagem 1">
+            <img src="src/imagens/carrossel/mesa-l-carrossel.jpg" alt="Imagem 2">
+            <img src="src/imagens/carrossel/sala-conjunto-carrossel.jpg" alt="Imagem 3">
+            <img src="src/imagens/carrossel/propaganda-carrossel.jpg" alt="Imagem 4">
+        </div>
     </div>
     <div class="setas">
-        <button class="seta-esquerda" onclick="voltar()">&#10094;</button>
-        <button class="seta-direita" onclick="avancar()">&#10095;</button>
+        <img src="src/imagens/carrossel/botão-ant-carrossel.png" class="seta-esquerda" onclick="voltar()" alt="Seta Esquerda">
+        <img src="src/imagens/carrossel/botão-prx-carrossel.png" class="seta-direita" onclick="avancar()" alt="Seta Direita">
+    </div>
+    
+
+    <div class="content-produto">
+        <div class="texto-produto"> 
+            <h2> Produtos </h2> 
+        </div>
+            <div class="lista-produtos"> 
+                <a href=""></a>
+                <img src="src/imagens/lista produto/linha-black.jpg" alt="linha black">
+            </div>
+            <div class="lista-produtos"> 
+                <a href=""></a>
+                <img src="src/imagens/lista produto/sistema-uno.jpg" alt="Linha sistema-uno">
+            </div>
+            <div class="lista-produtos"> 
+                <a href=""></a>
+                <img src="src/imagens/lista produto/fit-elegance.jpg" alt="Linha Elegance">
+            </div>
+            <div class="lista-produtos"> 
+                <a href=""></a>
+                <img src="src/imagens/lista produto/fit-center.jpg" alt="Linha Fit Center">
+            </div>
+            <div class="lista-produtos"> 
+                <a href=""></a>
+            <img src="src/imagens/lista produto/fit.jpg" alt="linha Fit">
+        </div>
+        <div class="lista-produtos"> 
+            <a href=""></a>
+            <img src="src/imagens/lista produto/soft.jpg" alt="Linha Soft">
+        </div>
+        <div class="lista-produtos"> 
+            <a href=""></a>
+            <img src="src/imagens/lista produto/cadeiras.jpg" alt="Cadeira">
+        </div>
     </div>
 
+
+    
 
 
 
@@ -53,38 +103,13 @@
         </li>
     </nav>
     <footer>
-    <div class="rodape">
-        <div class="container">
-                <div class="navbar-footer">
-                    <div class="content" > 
-                        <h5> Institucional </h5>
-                        <ul>
-                            <li> Sobre Nos</li>
-                            <li> Produtos </li>
-                            <li> Certificações </li>
-                        </ul>
-                    </div>
-                    <div class="content" >
-                        <h5> Contato </h5>
-                        <ul>
-                            <li> Sobre Nos</li>
-                            <li> Produtos </li>
-                            <li> Certificações </li>
-                        </ul>
-                    </div>
-                    <div class="content" >
-                        <h5> Duvidas </h5>
-                        <ul>
-                            <li> Sobre Nos</li>
-                            <li> Produtos </li>
-                            <li> Certificações </li>
-                        </ul>
-                    </div>
-                    <div class="content" ></div>
-                </div>
+        <div class="rodape">
+            <div class="rodape-end">
+                <address> 
+                    Rua Dr. Gutemberg Chagas 280 – DIA - B. Inácio Barbosa - Aracaju – Sergipe - TEL: (79) 2107-0949
+                </address>
             </div>
         </div>
-    </div>
     </footer>
     <script src="src/js/main.js"></script>
 </body>

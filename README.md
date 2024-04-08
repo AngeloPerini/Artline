@@ -1,5 +1,7 @@
 Olá dev's, 
-venho fazendo este projeto sem pressa alguma pelo fato de ser apenas para meu portifolio, vou codando aos poucos 
+venho fazendo este projeto à algum tempo para a empresa na qual trabalho, me fizeram a proposta para codar o site e venho fazendo deste então. Estou enfrentando dificuldades e experiencias novas e desafiadoras e vou trabalhando da melhor forma possível. 
+
+Principais dificuldades: Carregamento do carrossel, fixação de um email especifico na pagina do contado por precisa de banco de dados, e a responsividade em si, fora as outras pagina que tambem penso em usar o banco para não fazer varias paginas html!! 
 
 Dia - 1 // Fiz o layout da pagina, sendo o cabeçario e o rodape, logo em seguida fiz um carrossel com algumas foto, mudando automaticamente a cada 10s.
 
